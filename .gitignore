@@ -2,3 +2,4 @@
 *.log
 kubeconfig*
 .env
+*.swp
