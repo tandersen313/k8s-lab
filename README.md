@@ -17,7 +17,7 @@ browser ──▶ │  frontend  │ ───▶ │  backend   │ ───�
 ## Stack
 | Layer | Tool | Phase |
 |---|---|---|
-| Cluster | kind on OrbStack (Apple Silicon Mac) | 1 ✅ |
+| Cluster | kind on Docker Desktop (Apple Silicon Mac) | 1 ✅ |
 | App | nginx → podinfo → redis | 1 ✅ |
 | Troubleshooting | kubectl, k9s, runbooks | 1 ✅ |
 | GitOps | Argo CD | 2 |
@@ -37,7 +37,7 @@ Then pick a scenario in [`scenarios/`](scenarios/).
 ## Scenarios
 | # | Failure | Status |
 |---|---|---|
-| 01 | CrashLoopBackOff | ⬜ |
+| 01 | CrashLoopBackOff | ✅ |
 | 02 | OOMKilled | ⬜ |
 | 03 | ImagePullBackOff | ⬜ |
 | 04 | Running but not Ready | ⬜ |
